@@ -10,8 +10,8 @@ int main() {
     char codigo[05] = "A01";
     char cidade[25] = "Salvador";
     //float divisao;
-    float PIBpercapita;
-    float densidadeDemografica;
+    float PIBpercapita = 56736.71;
+    float densidadeDemografica = 8102.64;
     
 
     densidadeDemografica = (float)populacao / area;
