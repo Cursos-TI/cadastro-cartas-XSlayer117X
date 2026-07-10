@@ -5,10 +5,10 @@ int main() {
     long long int numeroGrande = 2147483647;
 
     printf("Número regular (int): %d\n", numeroNormal);
-    printf("Núimero grande (long int): %lld\n", numeroGrande);
+    printf("Núimero grande (long int): %ld\n", numeroGrande);
 
     numeroGrande = 2147483648; //Valor maior que o maximo de int
-    printf("Número grande atualizado (long int): %ld\n", numeroGrande);
-            return 0;
+    printf("Número grande atualizado (long int): %lld\n", numeroGrande);
+     return 0;
 
 }
